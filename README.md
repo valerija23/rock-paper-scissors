@@ -1,1 +1,3 @@
-# rock-paper-scissors
+# Akmens, šķēres, papīrs
+
+Specifikācijai jābūt šeit.
