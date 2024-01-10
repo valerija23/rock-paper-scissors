@@ -11,4 +11,32 @@ SCISSOR = "2"
 PAPER = "3"
 
 print("Welcome to Rock, Paper, Scissors!")
+print("Choose number from 1 to 3")
+option = input("Choose number")
+print("You have chosen" + option)
+import random 
 
+randint = str(random.randint(1,3))
+print("Computer chosen" + randint)
+
+if option == ROCK:
+    if randint == PAPER:
+        print("You lose")
+    elif randint == SCISSOR:
+        print("You won")   
+    elif randint == ROCK:
+        print("Draw")   
+if option == SCISSOR:
+    if randint == ROCK:
+        print("You lose")
+    elif randint == PAPER:
+        print("You won")
+    elif randint == SCISSOR:
+        print("Draw")              
+if option == PAPER:
+    if randint == SCISSOR:
+        print("You lose")
+    elif randint == ROCK:
+        print("You won") 
+    elif randint == PAPER:
+        print("Draw")               
